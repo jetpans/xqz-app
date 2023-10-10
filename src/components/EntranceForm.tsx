@@ -6,7 +6,7 @@ import { Dirent } from "fs";
 export default function EntranceForm(props: any) {
   const dispatch = useDispatch();
   const usernameSelector = useSelector((state: any) => state.username);
-  const [serverURL, setServerURL] = useState("localhost:6969");
+  const [serverURL, setServerURL] = useState("localhost:5000");
   const [username, setUsername] = useState("jetpans");
 
   const handleClick = () => {

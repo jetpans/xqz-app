@@ -3,31 +3,26 @@ import React, { useState } from "react";
 import { setEmitFlags } from "typescript";
 import { useSelector, useDispatch } from "react-redux";
 
+import RegularChatMessage from "./RegularChatMessage";
+import SpecialChatMessage from "./SpecialChatMessage";
 export default function ChatMessage(props: any) {
   const dispatch = useDispatch();
+  if (props.type === "special") {
+    return (
+      <SpecialChatMessage
+        key={props.index}
+        username={props.username}
+        message={props.message}
+        type={props.type}
+      ></SpecialChatMessage>
+    );
+  }
   return (
-    <div
-      style={{
-        backgroundColor: "white",
-        color: "black",
-        border: "2px solid black",
-        height: "10%",
-        padding: "2px",
-        display: "flex",
-        flexDirection: "row",
-        alignItems: "center",
-        fontSize: "1.2rem",
-        gap: "1rem",
-      }}
-    >
-      <h3
-        style={{
-          color: "blue",
-        }}
-      >
-        {props.username}
-      </h3>
-      <div>{props.message}</div>
-    </div>
+    <RegularChatMessage
+      key={props.index}
+      username={props.username}
+      message={props.message}
+      type={props.type}
+    ></RegularChatMessage>
   );
 }

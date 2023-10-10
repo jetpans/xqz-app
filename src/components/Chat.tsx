@@ -20,6 +20,7 @@ export default function Chat() {
             key={index}
             username={element.username}
             message={element.text}
+            type={element.type}
           ></ChatMessage>
         );
       })}

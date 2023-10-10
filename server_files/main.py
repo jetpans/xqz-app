@@ -61,7 +61,7 @@ def handle_msg(data):
     print("Recieved following message: ",data)
     allMessages.append(data)
     if is_correct_answer(data["text"]):
-        t_msg = {'text':"Congratulations {}! Your answer is correct!".format(data["username"]), 'username':'GameMaster', 'socketID':"server"}
+        t_msg = {'type':"special" ,'text':"Congratulations {}! Your answer is correct!".format(data["username"]), 'username':'GameMaster', 'socketID':"server"}
         socketio.emit("singleMessage", t_msg)
         data["text"] = "||||||||||||||"
         emit("singleMessage", data, broadcast=True)
@@ -87,7 +87,7 @@ def question_change_loop(group_ID = 0):
     global CONST_DELAY
     while True:
         change_question()
-        q_msg = {'text':CURRENT_QUESTION["question"], 'username':'GameMaster', 'socketID':"server"}
+        q_msg = {'type':"special" ,'text':CURRENT_QUESTION["question"], 'username':'GameMaster', 'socketID':"server"}
         print("Sending this: ", q_msg)
         socketio.emit("singleMessage", q_msg)
         time.sleep(10)
