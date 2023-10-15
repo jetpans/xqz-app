@@ -45,7 +45,7 @@ global RESET_TIME
 global CURRENT_QUESTION
 global QUESTIONS
 global CONST_DELAY
-CONST_DELAY = 30
+CONST_DELAY = 20
 QUESTIONS = fetch_from_file("all_questions.json")
 RESET_TIME = time.time()
 CURRENT_QUESTION = QUESTIONS[0]
@@ -55,6 +55,10 @@ allMessages = []
 @app.route("/getThing")
 def firstRoute():
     return jsonify("Hello Stjepan!")
+
+@socketio.on_event('connect')
+def on_connect(): 
+    print("new connection esablished")
 
 @socketio.on("message")
 def handle_msg(data):
@@ -68,6 +72,10 @@ def handle_msg(data):
     else:
         print("Sending this: ", data)
         emit("singleMessage", data, broadcast=True)
+    
+@socketio.on('connect')
+def on_connect():
+    print("new client just connected")
 
 @app.after_request
 def add_cors_headers(response):
@@ -93,8 +101,8 @@ def question_change_loop(group_ID = 0):
 
         
 #-MAIN-------------------------------------------
-#a = Thread(target = question_change_loop)
-#a.start()
+# a = Thread(target = question_change_loop)
+# a.start()
 if __name__ == "__main__":
     h = Thread(target= socketio.run(app, port=5000,  host="0.0.0.0", debug=True))
     h.start()

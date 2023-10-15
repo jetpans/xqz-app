@@ -1,35 +1,22 @@
-import React, { useEffect } from "react";
-import MainPage from "./views/MainPage";
-import "./styles/style.css";
-import * as socketIO from "socket.io-client";
-import getRoute from "./utils/utils";
-import { useDispatch, useSelector } from "react-redux";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ServerJoinPage from "./views/ServerJoinPage";
+import ChatPage from "./views/ChatPage";
+
+export enum PATHS {
+  JOIN = "join",
+  PLAY = "play",
+}
 
 function App() {
-  const dispatch = useDispatch();
-  const serverURL = useSelector((state: any) => state.serverURL);
-
-  useEffect(() => {
-    const socket = socketIO.connect(getRoute(serverURL, ""));
-    dispatch({ type: "setSocket", payload: socket });
-    console.log(
-      "Trying to establish socket with this: ",
-      getRoute(serverURL, "")
-    );
-    socket.on("singleMessage", (...args) => {
-      console.log("This is args: ", args);
-      console.log("And this is args[0]", args[0]);
-      dispatch({ type: "addMessage", payload: args[0] });
-    });
-    // return () => {
-    //   socket.off("singleMessage");
-    // };
-  }, [serverURL]);
-
   return (
-    <div style={{ height: "100vh" }}>
-      <MainPage></MainPage>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<h1>hello home</h1>} />
+        <Route path="/join" element={<ServerJoinPage />} />
+        <Route path="/play" element={<ChatPage />} />
+        <Route path="*" element={<h1>404</h1>} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

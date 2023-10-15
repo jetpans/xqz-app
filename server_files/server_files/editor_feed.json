@@ -1,0 +1,235 @@
+[
+  {
+    "question_id": 0,
+    "question": "Who created the digital distribution platform Steam?",
+    "answers": ["valve"]
+  },
+  {
+    "question_id": 0,
+    "question": "At which bridge does the annual Oxford and Cambridge boat race start?",
+    "answers": ["putney"]
+  },
+  {
+    "question_id": 0,
+    "question": "What is the name of Batman's parents?",
+    "answers": [
+      "thomas and martha",
+      "thomas martha",
+      "martha thomas",
+      "martha and thomas",
+      "thomas & martha",
+      "martha & thomas"
+    ]
+  },
+  {
+    "question_id": 0,
+    "question": "Who is the main character of the game Half-Life: Opposing Force?",
+    "answers": [
+      "adrian shephard",
+      "adrian",
+      "a shephard",
+      "a. shephard",
+      "shephard adrian"
+    ]
+  },
+  {
+    "question_id": 0,
+    "question": "What colour is the circle on the Japanese flag?",
+    "answers": ["red"]
+  },
+  {
+    "question_id": 0,
+    "question": "If you were to code software in this language you'd only be able to type zero's and one's.",
+    "answers": ["binary"]
+  },
+  {
+    "question_id": 0,
+    "question": "Donald J. Trump's middle name is...",
+    "answers": ["john"]
+  },
+  {
+    "question_id": 0,
+    "question": "Complete the following analogy: Audi is to Volkswagen as Infiniti is to?",
+    "answers": ["nissan", "nisan"]
+  },
+  {
+    "question_id": 0,
+    "question": "Who was given the title \"Full Metal\" in the anime series \"Full Metal Alchemist\"?",
+    "answers": ["edward elric", "edward"]
+  },
+  {
+    "question_id": 0,
+    "question": "In Grand Theft Auto V, what was Michael De Santa's former surname?",
+    "answers": ["townley"]
+  },
+  {
+    "question_id": 0,
+    "question": "Which Apollo mission was the last one in NASA's Apollo program?",
+    "answers": ["apollo 17", "17"]
+  },
+  {
+    "question_id": 0,
+    "question": "What is the scientific name of the red fox?",
+    "answers": ["vulpes vulpes"]
+  },
+  {
+    "question_id": 0,
+    "question": "Josh Mansour is part of what NRL team?",
+    "answers": ["penrith panthers"]
+  },
+  {
+    "question_id": 0,
+    "question": "What is the name of French electronic music producer Madeon&#039;s 2015 debut studio album?",
+    "answers": ["adventure"]
+  },
+  {
+    "question_id": 0,
+    "question": "Which of the following superheros did Wonder Woman NOT have a love interest in?",
+    "answers": ["green arrow"]
+  },
+  {
+    "question_id": 0,
+    "question": "Which figure from Greek mythology traveled to the underworld to return his wife Eurydice to the land of the living?",
+    "answers": ["orpheus"]
+  },
+  {
+    "question_id": 0,
+    "question": "The name of the Metroid series comes from what?",
+    "answers": ["an enemy in the game"]
+  },
+  {
+    "question_id": 0,
+    "question": "Which Disney character sings the song &quot;A Dream is a Wish Your Heart Makes&quot;?",
+    "answers": ["cinderella"]
+  },
+  {
+    "question_id": 0,
+    "question": "This weapon in Counter-Strike: Global Offensive does not exist in real life.",
+    "answers": ["m4a4"]
+  },
+  {
+    "question_id": 0,
+    "question": "What is the name of rocky region that spans most of eastern Canada?",
+    "answers": ["canadian shield"]
+  },
+  {
+    "question_id": 0,
+    "question": "What year was Apple Inc. founded?",
+    "answers": ["1976"]
+  },
+  {
+    "question_id": 0,
+    "question": "What year did the James Cameron film &quot;Titanic&quot; come out in theaters?",
+    "answers": ["1997"]
+  },
+  {
+    "question_id": 0,
+    "question": "In the 1992 film &quot;Army of Darkness&quot;, what name does Ash give to his double-barreled shotgun?",
+    "answers": ["boomstick"]
+  },
+  {
+    "question_id": 0,
+    "question": "When was Left 4 Dead 2 released?",
+    "answers": ["november 17, 2009"]
+  },
+  {
+    "question_id": 0,
+    "question": "What was Mountain Dew&#039;s original slogan?",
+    "answers": ["yahoo! mountain dew... it&#039;ll tickle your innards!"]
+  },
+  {
+    "question_id": 0,
+    "question": "Which one of these cartoon characters is NOT voiced by Rob Paulsen?",
+    "answers": ["max tennyson (ben 10)"]
+  },
+  {
+    "question_id": 0,
+    "question": "&quot;Minecraft&quot; was released from beta in 2011 during a convention held in which city?",
+    "answers": ["las vegas"]
+  },
+  {
+    "question_id": 0,
+    "question": "Which of following is rude and dishonorable by Klingon standards?",
+    "answers": ["taking his d&#039;k tahg"]
+  },
+  {
+    "question_id": 0,
+    "question": "In &quot;The Binding of Isaac&quot;, which item instantly kills Mom and Mom&#039;s Heart?",
+    "answers": ["the bible"]
+  },
+  {
+    "question_id": 0,
+    "question": "In a 1994 CBS interview, Microsoft co-founder Bill Gates performed what unusual trick on camera?",
+    "answers": ["jumping over an office chair"]
+  },
+  {
+    "question_id": 0,
+    "question": "In &quot;Call Of Duty: Zombies&quot;, completing which map&#039;s main easter egg will reward you with the achievement, &quot;Little Lost Girl&quot;?",
+    "answers": ["origins"]
+  },
+  {
+    "question_id": 0,
+    "question": "Which small country is located between the borders of France and Spain?",
+    "answers": ["andorra"]
+  },
+  {
+    "question_id": 0,
+    "question": "Who is the main villain of the Crash Bandicoot series?",
+    "answers": ["dr. neo cortex"]
+  },
+  {
+    "question_id": 0,
+    "question": "Who is the lead singer of the Smashing Pumpkins?",
+    "answers": ["billy corgan"]
+  },
+  {
+    "question_id": 0,
+    "question": "Who voiced Finn in Adventure Time?",
+    "answers": ["jeremy shada"]
+  },
+  {
+    "question_id": 0,
+    "question": "What was the name commonly given to the ancient trade routes that connected the East and West of Eurasia?",
+    "answers": ["silk road"]
+  },
+  {
+    "question_id": 0,
+    "question": "How many strings are there on a cello?",
+    "answers": ["4"]
+  },
+  {
+    "question_id": 0,
+    "question": "What country did Shirley Bassey originate from?",
+    "answers": ["wales"]
+  },
+  {
+    "question_id": 0,
+    "question": "What is the official name of the star located closest to the North Celestial Pole?",
+    "answers": ["polaris"]
+  },
+  {
+    "question_id": 0,
+    "question": "What ability does Princess Sofia the First have from her amulet that allows her to breathe underwater?",
+    "answers": ["mermaid transformation"]
+  },
+  {
+    "question_id": 0,
+    "question": "Which of these is NOT a real tectonic plate?",
+    "answers": ["atlantic plate"]
+  },
+  {
+    "question_id": 0,
+    "question": "Which of the following is not a work authored by Fyodor Dostoevsky?",
+    "answers": ["anna karenina"]
+  },
+  {
+    "question_id": 0,
+    "question": "Which famous military commander marched an army, which included war elephants, over the Alps during the Second Punic War?",
+    "answers": ["hannibal"]
+  },
+  {
+    "question_id": 0,
+    "question": "Which of the following music bands is not from Finland?",
+    "answers": ["sabaton"]
+  }
+]
