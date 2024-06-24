@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root {
+    --text: #303030;
+    --background: #f5f5f5;
+    --primary: #07d3f2;
+    --secondary: #aad1f8;
+    --accent: #3270a9;
+  }
+  .dark {
+    --text: #cfcfcf;
+    --background: #0a0a0a;
+    --primary: #0dd8f8;
+    --secondary: #072e55;
+    --accent: #5693cd;
+  }
+}
